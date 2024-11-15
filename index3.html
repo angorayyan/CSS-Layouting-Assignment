@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week-1 Assignment</title>
+</head>
+<body>
+    <h2>Introduction to HTML</h2>
+    <h3>Hello Everyone</h3>
+
+    <p>my first hands-on assignment using HTML to create a basic html template that contains Form,table and others</p>
+    <!--Basic Registration form-->
+    <form action="location" method="GET/POST">
+        <label for="User-name">Username:</label>
+        <input type="text"  id="User-name" placeholder="username" required> <br>
+        <label for="registered-email">Email:</label>
+        <input type="email" id="registered-email" placeholder="abc@mail.com" required> <br>
+        <label for="registered-password">Password:</label>
+        <input type="password" id="registered-password"> <br>
+
+        <label for="countries">Country</label>
+        <select id="countries">
+            <option>Algeria</option>
+            <option>Nigeria</option>
+            <option>South Africa</option>
+            <option>Ghana</option>
+            <option>Gambia</option>
+            <option>Tanzania</option>
+            <option>Zambia</option>
+        </select> <br>
+
+        <p>Select your Gender</p>
+        <input type="radio" id="Male" name="Gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="Gender" value="female" required>
+        <label for="Female"> Female</label> 
+
+        <p>do you agree to our terms and condition?</p>
+        <input type="checkbox" id="yes">
+        <label for="yes">yes</label>
+        <input type="checkbox" id="no">
+        <label for="no">No</label> <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <!--Table-->
+    <table border="1" cellpadding="5">
+        <thead>
+            <tr>
+                <td>S/N</td>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Phone Number</td>
+            </tr>
+        </thead>
+    </table>
+
+    <!--internal image-->
+
+    <img src="04.jpg" alt="a sample of picture of Yourhandiman" width="300" height="250"> <br>
+
+    <!--external image-->
+   <img src="https://images.pexels.com/photos/1906658/pexels-photo-1906658.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="this is a picture of a sky" width="300" height="300">
+    <br>
+   <!--External Link to another page-->
+   <a href="https://www.google.com/">click here to visit the google web page</a>
+
+   
+</body>
+</html>
