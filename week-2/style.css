@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;    
+  
+}
+h2{
+    color: rgb(47, 47, 137);
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: rgb(99, 37, 37);
+    text-align: justify;
+}
+a{
+    color: aliceblue;
+    background-color: black;
+    text-transform: uppercase;
+}
+
+.text{
+    background-color: black;
+    color: white;
+}
