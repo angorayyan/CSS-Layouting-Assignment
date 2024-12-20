@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;    
+    background-color: rgb(57, 187, 146);    
   
 }
 h2{
@@ -14,7 +14,7 @@ h3{
 a{
     color: aliceblue;
     background-color: black;
-    text-transform: uppercase;
+    text-transform: uppercase ;
 }
 
 .text{
